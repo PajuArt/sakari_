@@ -1,0 +1,101 @@
+body 
+{
+	width: 640px;
+	height: 320px;
+	background-repeat: no-repeat;
+}
+
+.button
+{
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	padding: 8px;
+	border-radius: 8px 8px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button_submit_score
+{
+	position: absolute;
+	top: 275px;
+	left: 24px;
+}
+
+.button_save
+{
+	position: absolute;
+	top: 275px;
+	left: 394px;
+}
+
+.button_load
+{
+	position: absolute;
+	top: 275px;
+	left: 530px;
+}
+
+.button_start
+{
+	position: absolute;
+	top: 275px;
+	left: 270px;
+}
+
+.button_continue
+{
+	position: absolute;
+	top: 275px;
+	left: 290px;
+}
+
+.button_yes
+{
+	position: absolute;
+	top: 140px;
+	left: 520px;
+}
+
+.button_no
+{
+	position: absolute;
+	top: 140px;
+	left: 470px;
+}
+
+.text
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	width: 640px;
+	letter-spacing: 4px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.points
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 125px;
+	left: 25px;
+	color: rgb(211,211,211);
+	opacity: 0.9;
+	text-align: center;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
